@@ -2,7 +2,7 @@
 
 Description
 -------
-Multiple shell scripts that I have written over the time to make life a little bit eaiser. Hope it will help you!
+Multiple shell scripts!
 
 Usage
 -------
