@@ -24,8 +24,7 @@ echo "Processing $f..."
 ```Shell
 sed -i "s/vasim/$(basename -- "$f" .txt)/g" $f
 ```
-```diff
-- Warning
-# This script override the original file! There is no way you can revert back the original file. If you want to keep a backup of the file(s), in the sed command, replace **-i** with **-i_bkp**  
-```
+
+> :warning: Be very careful while using it! This script overrides the original file! There is no way you can revert back.
+
 
