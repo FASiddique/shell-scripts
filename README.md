@@ -8,6 +8,8 @@ Usage
 -------
 ## find-and-replace.sh
 
+> :warning: Be very careful while using it! This script overrides the original file! There is no way you can revert back.
+
 What it does?
 Find some texts in a file and replace it with provided texts. But the power of the script does not lie within the find and replace task! If you have say 10k txt files in a directory and you want to check if the files contain the text "worries" and replace it with "hakuna matata". You are not obviously going to manually check all 10k files! Instead use this script and it will do the job for you!
 
@@ -24,7 +26,5 @@ echo "Processing $f..."
 ```Shell
 sed -i "s/vasim/$(basename -- "$f" .txt)/g" $f
 ```
-
-> :warning: Be very careful while using it! This script overrides the original file! There is no way you can revert back.
 
 
